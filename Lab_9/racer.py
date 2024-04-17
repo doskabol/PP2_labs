@@ -124,7 +124,7 @@ while True:
       
     for event in pygame.event.get():
         if event.type == INC_SPEED:
-              SPEED += 0.5      
+              SPEED += 0.1     #увеличивает скорость монет и врагов
         if event.type == QUIT:
             pygame.quit()
             sys.exit()

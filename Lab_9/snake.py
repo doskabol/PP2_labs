@@ -84,13 +84,13 @@ while True:
             if event.key == pygame.K_ESCAPE:
                 pygame.quit()
                 sys.exit()
-            if event.key == pygame.K_UP:
+            if event.key == pygame.K_w:
                 change_to = 'UP'
-            elif event.key == pygame.K_DOWN:
+            elif event.key == pygame.K_s:
                 change_to = 'DOWN'
-            elif event.key == pygame.K_LEFT:
+            elif event.key == pygame.K_a:
                 change_to = 'LEFT'
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_d:
                 change_to = 'RIGHT'
 
     # смена направления

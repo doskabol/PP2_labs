@@ -14,7 +14,7 @@ str_obj.getString()
 str_obj.printString() 
 
 # 2
-class Shape: 
+'''class Shape: 
     def area(self): 
         return 0 
  
@@ -140,4 +140,4 @@ for i in range(n):
     mylist.append(number) 
  
 prime_filter = Prime(mylist) 
-print(prime_filter.filter_prime_numbers())
+print(prime_filter.filter_prime_numbers())'''

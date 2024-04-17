@@ -6,7 +6,7 @@ screen_width, screen_height = 500, 500
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 pygame.display.set_caption("Red Ball")
-
+clock = pygame.time.Clock()
 ball_radius = 25
 ball_x, ball_y = screen_width // 2, screen_height // 2
 ball_color = (255, 0, 0)
@@ -33,3 +33,4 @@ while True:
     pygame.draw.circle(screen, ball_color, (ball_x, ball_y), ball_radius)
 
     pygame.display.update()
+    clock.tick(60)
