@@ -48,9 +48,9 @@ class Rectangle(Shape):
         return self.length * self.width 
  
 rectangle = Rectangle(5, 3) 
-print("Rectangle area:", rectangle.area())  # Output: 15 
+print("Rectangle area:", rectangle.area())  # 15 
 shape = Shape() 
-print("Default shape area:", shape.area())  # Output: 0 
+print("Default shape area:", shape.area())  # 0 
 
 # 4
 import math 
@@ -106,17 +106,17 @@ class Bank():
             return f"you're balance: {self.money},  and you take {money}" 
          
          
-bank = Bank("Nurzhan", 1000) 
+bank = Bank("Dosbol", 12500) 
  
 print(bank.balance()) 
  
 print(bank.owner()) 
  
-print(bank.deposit(1000)) 
+print(bank.deposit(500)) 
  
-print(bank.withdraw(3000)) 
+print(bank.withdraw(30000)) 
  
-print(bank.withdraw(2000))
+print(bank.withdraw(2500))
 # 6
 class Prime: 
     def __init__(self, numbers): 
