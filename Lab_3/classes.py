@@ -1,4 +1,4 @@
-# 1
+# 1 Upper Сase
 class StringManipulator: 
     def __init__(self): 
         self.text = "" 
