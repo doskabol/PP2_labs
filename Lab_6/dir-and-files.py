@@ -1,21 +1,21 @@
-import os
+'''import os
 
 path = "." 
 
 print("Directories:", [d for d in os.listdir(path) if os.path.isdir(os.path.join(path, d))])
 print("Files:", [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))])
-print("All items:", os.listdir(path)) 
+print("All items:", os.listdir(path)) '''
 
 #2
 import os
 
-path = "PP2_labs\Lab_6\text.txt" 
+path = r"C:\Users\Зере\Desktop\pp2\Lab_6\text.txt"
 
 print("Exists:", os.path.exists(path))
 print("Readable:", os.access(path, os.R_OK))
 print("Writable:", os.access(path, os.W_OK))
 print("Executable:", os.access(path, os.X_OK))
-
+'''
 #3
 import os
 
@@ -58,4 +58,4 @@ if os.path.exists(file) and os.access(file, os.W_OK):
     os.remove(file) 
     print("File deleted.")
 else:
-    print("File not found.")
+    print("File not found.")'''
