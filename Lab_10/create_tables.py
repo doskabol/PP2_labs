@@ -1,5 +1,5 @@
 import psycopg2, csv
-
+#
 db = psycopg2.connect(
     dbname='lab10',
     user='postgres',

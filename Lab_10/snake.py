@@ -7,7 +7,7 @@ import psycopg2
 print("Enter your name")
 name = input()
 
-# Подключение к базе данных
+# Подключение к базе данныхх
 db = psycopg2.connect(
     dbname='lab10',
     user='postgres',
